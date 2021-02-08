@@ -3,6 +3,8 @@
     margin: 0;
     font-size: 15px;
     font-family: 'Alata', sans-serif;
+    transition: 0.3s all;
+    scroll-behavior: smooth;
 }
 .container {
     .header {
@@ -103,16 +105,49 @@
         .image-div{
             margin: 20px;
             background-color: 1px solid black;
-        img {  width: 300px;}
-        text-align: center;
-        h3{
+          img {  width: 300px;}
+           text-align: center;
+          h3{
             text-transform: uppercase;
             font-family: 'Josefin Sans', sans-serif;
             position: relative;
             top: -80px;
             font-size: 25px;
             color: white;
+          }
+       }
+    .image-div:hover{ cursor: pointer; opacity: 70%;}
+   }
+   .footer {
+       background-color:hsl(0, 0%, 0%);
+       .footer-top{
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+        .icon {
+            img {
+                margin-right:10px;
+            }
         }
-    }
-}
+       }
+       .footer-bottom{
+        padding-bottom: 10px;   
+        display: flex;
+           justify-content: space-around;
+           .nav-bottom {
+                
+                    margin-right: 140px;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        padding: 10px;
+     
+                    }
+                }
+                .copyright {
+                    color: white;
+                }
+       }
+   }
+
 }
