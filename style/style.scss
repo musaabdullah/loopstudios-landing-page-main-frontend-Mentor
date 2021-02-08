@@ -48,4 +48,71 @@
             border: 2px solid white;
          }
     }
+    .banner {
+        display: flex;
+        background:white;
+        // height: 100vh;
+        padding: 100px;
+        img {
+            width: 700px;
+        }
+        .banner-ph{
+            .banner-text {
+                width: 450px;
+                height: 120px;
+                background-color: white;
+                padding: 100px;
+                position: relative;
+                top: 220px;
+                right: 140px;
+                p {line-height: 20px;}
+                h2{
+                    font-size: 40px;
+                    text-transform: uppercase;
+                    font-family: 'Josefin Sans', sans-serif;
+                }
+            }
+        }
+    }
+    .center-items {
+        display: flex;
+        justify-content: space-around;
+        h1{
+            font-size:40px;
+            text-transform: uppercase;
+            margin-right:700px;
+            font-family: 'Josefin Sans', sans-serif;
+
+        }
+        button {
+            background: white;
+            color: black;
+            padding: 10px;
+            border: none;
+            outline: 1px solid black;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+    .center-images {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 80px;
+        .image-div{
+            margin: 20px;
+            background-color: 1px solid black;
+        img {  width: 300px;}
+        text-align: center;
+        h3{
+            text-transform: uppercase;
+            font-family: 'Josefin Sans', sans-serif;
+            position: relative;
+            top: -80px;
+            font-size: 25px;
+            color: white;
+        }
+    }
+}
 }

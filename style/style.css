@@ -58,4 +58,93 @@
   color: white;
   border: 2px solid white;
 }
+
+.container .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  padding: 100px;
+}
+
+.container .banner img {
+  width: 700px;
+}
+
+.container .banner .banner-ph .banner-text {
+  width: 450px;
+  height: 120px;
+  background-color: white;
+  padding: 100px;
+  position: relative;
+  top: 220px;
+  right: 140px;
+}
+
+.container .banner .banner-ph .banner-text p {
+  line-height: 20px;
+}
+
+.container .banner .banner-ph .banner-text h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container .center-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .center-items h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-right: 700px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container .center-items button {
+  background: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  outline: 1px solid black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.container .center-images {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+.container .center-images .image-div {
+  margin: 20px;
+  background-color: 1px solid black;
+  text-align: center;
+}
+
+.container .center-images .image-div img {
+  width: 300px;
+}
+
+.container .center-images .image-div h3 {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  top: -80px;
+  font-size: 25px;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
